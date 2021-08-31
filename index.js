@@ -6,3 +6,7 @@ const generateACopy = ({ variableValues, ifStatementValues, switchStatementValue
   processIfStatements(instanceDocument, ifStatementValues);
   processSwitchStatements(instanceDocument, switchStatementValues);
 };
+
+const doPost = (e) => {
+  console.log(e.parameter);
+};
